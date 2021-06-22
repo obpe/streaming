@@ -1,0 +1,7 @@
+div > p {
+    margin-left: 10px;
+}
+
+.address > p {
+    font-size: 15px;
+}
