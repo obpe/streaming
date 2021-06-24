@@ -1,11 +1,16 @@
 import './App.css';
 import Home from './home';
-import {Link} from 'react-router-dom';
+import Categories from './categories';
+import { Switch, Route } from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/categories' component={Categories} />
+      </Switch>
     </div>
   );
 }
