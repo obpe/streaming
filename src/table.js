@@ -1,7 +1,7 @@
 import React from 'react';
-import './chart.css';
+import './table.css';
 
-const Chart = props => {
+const Table = props => {
     return (
         <tr>
             <td>{props.name}</td>
@@ -10,4 +10,4 @@ const Chart = props => {
     )
 }
 
-export default Chart;
+export default Table;

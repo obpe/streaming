@@ -1,8 +1,7 @@
 import React from 'react';
-import Home from './home';
 import Category from './category';
 
-const Categories = () => (
+const Categories = props => (
     <div>
         <Category />
     </div>
